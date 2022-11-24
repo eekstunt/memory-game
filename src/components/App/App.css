@@ -1,0 +1,30 @@
+* {
+    all: unset;
+    display: revert;
+}
+
+.grid {
+    display: grid;
+    gap: var(--grid-gap);
+    grid-template-columns: repeat(8, var(--grid-column-width));
+    grid-template-rows: repeat(6, var(--grid-column-width));
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 3;
+    grid-column-end: 7;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 35px;
+
+    text-transform: uppercase;
+    font-family: 'Formular', sans-serif;
+    color: var(--color-blue);
+
+}

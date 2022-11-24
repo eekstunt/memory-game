@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Formular';
+    src: url('./fonts/Formular-Medium.eot');
+    src: local('Formular Medium'), local('Formular-Medium'),
+        url('./fonts/Formular-Medium.eot') format('embedded-opentype'),
+        url('./fonts/Formular-Medium.woff2') format('woff2'),
+        url('./fonts/Formular-Medium.woff') format('woff'),
+        url('./fonts/Formular-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Formular';
+    src: url('./fonts/Formular-Bold.eot');
+    src: local('Formular Bold'), local('Formular-Bold'),
+        url('./fonts/Formular-Bold.eot') format('embedded-opentype'),
+        url('./fonts/Formular-Bold.woff2') format('woff2'),
+        url('./fonts/Formular-Bold.woff') format('woff'),
+        url('./fonts/Formular-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    --app-height: 100%;
+    --color-blue: #0083FC;
+    --color-red: #FF5533;
+    --color-dark-white: #E5E5E5;
+    --color-white: #FFFFFF;
+    --grid-column-width: 117px;
+    --grid-gap: 8px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+    height: var(--app-height);
+    background-color: var(--color-dark-white);
+}

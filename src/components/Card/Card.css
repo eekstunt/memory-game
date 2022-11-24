@@ -1,0 +1,24 @@
+.card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    grid-column-start: unset;
+    grid-row-start: unset;
+}
+
+.card__opened-or-solved {
+    background: var(--color-dark-white);
+}
+
+.card__closed {
+    background: var(--color-blue);
+}
+
+.card__logo {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

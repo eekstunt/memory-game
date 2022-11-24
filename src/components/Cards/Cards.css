@@ -1,0 +1,9 @@
+.cards {
+    list-style: none;
+    display: grid;
+    gap: var(--grid-gap);
+    grid-template-columns: repeat(4, var(--grid-column-width));
+    grid-template-rows: repeat(4, var(--grid-column-width));
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
